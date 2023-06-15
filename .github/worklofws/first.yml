@@ -5,6 +5,6 @@ jobs:
   echo:
     runs-on: ubuntu-latest
     steps: 
-      - run : echo 'Hello, github actions'
+      - run : echo 'Hello, github actions - '
       
       
