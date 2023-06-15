@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello, GitHub Actions!!!!!!!!!!'
+      - run: hostname 
   pwd-ls:
     name: PWD & LS
     runs-on: ubuntu-latest
