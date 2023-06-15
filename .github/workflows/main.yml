@@ -1,0 +1,7 @@
+name: main workflow
+on: Push
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hello, GitHub Actions!'
